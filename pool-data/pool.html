@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="test">
+    <title>pool</title>
+    <script async src="javascript/pool.js"></script>
+    <style>
+      table, td {
+        border: 0.3em solid;
+      }
+    </style>
+</head>
+<body>
+<table id="tabel">
+  <thead>
+    <tr>
+      <th>Voornaam</th>
+      <th>Achternaam</th>
+      <th>Aantal punten</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Johan</td>
+      <td>Cruijff</td>
+      <td>54</td>
+    </tr>
+      <tr>
+      <td>Willem</td>
+      <td>Wever</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>Henk</td>
+      <td>Jansen</td>
+      <td>80</td>
+    </tr>
+    <tr>
+      <td>Theo</td>
+      <td>Vermeer</td>
+      <td>100</td>
+    </tr>
+  </tbody>
+</table><br><br>
+<form id="frm1">
+  Voornaam&#42;: <input id="vnaam" class="entry" type="text"><br>
+  Achternaam&#42;: <input id="anaam" class="entry" type="text"><br>
+  Punten&#42;: <input id="punten" class="entry" type="text"><br>
+  <small>&#42; verplichte invoer</small>
+</form><br><br>
+  <input type="button" id="button" value="klik om deelnemer toe te voegen"><br><br>
+  <input type="button" id="button2" value="klik om een kolom met rijnummers toe te voegen"><br><br>
+  <input type="text" id="rijnummer"><br>
+  <input type="button" id="button3" value="klik om het (hierboven) ingevoerde rijnummer te verwijderen"><br><br>
+</body>
+</html>
